@@ -1,0 +1,11 @@
+.idea/
+venv/
+__pycache__
+.DS_Store
+**/.DS_Store
+logs/*
+!logs/.gitkeep
+**/__pycache__/
+.vscode
+static/
+templates/
