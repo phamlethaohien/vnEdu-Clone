@@ -36,26 +36,31 @@ export default {
 }
 
 .fw-medium {
-    font-weight: 600 !important;
+  font-weight: 600 !important;
 }
 
 .fw-semi-bold {
-    font-weight: 700 !important;
+  font-weight: 700 !important;
 }
 
 .back-to-top {
-    position: fixed;
-    display: none;
-    right: 45px;
-    bottom: 45px;
-    z-index: 99;
+  position: fixed;
+  display: none;
+  right: 45px;
+  bottom: 45px;
+  z-index: 99;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
 }
 
 /*** Button ***/
 .btn {
-    font-family: 'Nunito', sans-serif;
-    font-weight: 600;
-    transition: .5s;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  transition: .5s;
 }
 
 .btn.btn-primary {

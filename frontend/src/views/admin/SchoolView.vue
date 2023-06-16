@@ -1,5 +1,19 @@
 <template>
-  <div class="school">
-    <h1>This is a school page</h1>
+  <div class="schools">
+    <AdminMain/>
   </div>
 </template>
+
+<script>
+import AdminMain from '@/components/admin/AdminMain.vue'
+
+export default {
+  name: 'AdminSchools',
+  components: {
+    AdminMain
+  },
+  data() {
+
+  },
+}
+</script>
